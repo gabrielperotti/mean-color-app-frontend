@@ -1,27 +1,26 @@
-# ColorApp
+# Frontend para MEAN Color App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.1.3.
+## Objetivo
+Este módulo es una aplicación Angular que consume la API del backend para mostrar y gestionar los colores.
 
-## Development server
+## Tecnologías Utilizadas
+- Angular
+- Docker
+- Nginx
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Cómo Ejecutar
+1. Asegúrate de tener Docker instalado.
+2. Construye la imagen de Docker:
+```
+docker build -t mean-color-app-frontend 
+```
+3. Ejecuta el contenedor de Docker:
+```
+docker run -p 80:80 mean-color-app-frontend
+```
 
-## Code scaffolding
+## Navegación
+Visita `http://localhost` en tu navegador para ver la aplicación.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## Licencia
+Especifica aquí tu tipo de licencia.
